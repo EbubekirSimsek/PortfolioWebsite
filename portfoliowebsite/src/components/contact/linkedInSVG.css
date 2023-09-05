@@ -1,0 +1,11 @@
+/* LinkedInSVG.css */
+.linkedin-icon {
+    fill: white; /* Set the fill color to white or any color you prefer */
+    transition: all 0.3s;
+    
+  }
+  
+  .linkedin-icon:hover {
+    fill: #0072b1 /* Your hover color here */;
+  }
+  

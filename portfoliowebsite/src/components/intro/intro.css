@@ -1,35 +1,35 @@
 .i {
     display: flex;
     height: 100vh;
+    background-color: #393E46;
+    color: #EEEEEE;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
   }
-  
+
+  .fade-in {
+    opacity: 1;
+  }
+
   .i-left {
-    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center; 
-   
+    width: 100%;
   }
   
   .r-right {
-    flex: 1;
-  
-  
+    display: flex;
+    width: 100%;
   }
-  
+
   .i-left-wrapper {
-    padding: 50px;
-    height: 70%;
+    padding: 20px;
+    height: 75%;
     display: flex;
     flex-direction: column;
     justify-items: normal;
-  
-  }
-  
-  .i-intro {
-    font-size: 30px;
-    font-weight: 300;
-    font-style:inherit;
+      
   }
   
   .i-name {
@@ -63,11 +63,12 @@
     }
   }
   
+  /*The items that have the animation*/
   .i-title-item {
     height: 50px;
     font-size: 25px;
     font-weight: bold;
-    color: blue;
+    color: #FFD369;
     display: flex;
     align-items: center;
   }
@@ -76,17 +77,26 @@
   font-size:x-large;
   }
   
-  .i-img{
+  /*Css for the portrait image*/
+  .i-img{ 
     height: 100%;
-    width: 100%;
+    width: auto;
+    max-width: 80%;
     object-fit: contain;
-    position:sticky
+    position:absolute;  
+    left: 55%;
   }
   
-  .i-bg{
-    clip-path: polygon(25% 0%, 100% 0, 100% 50%, 100% 100%, 25% 100%, 0% 50%);
-    background-color: blue;
-    width: 100%;
+  /*This is the polygon background*/
+  .i-bg {
+    /*clip-path: polygon(25% 0%, 100% 0, 100% 50%, 100% 100%, 25% 100%, 0% 50%);*/
+    clip-path: polygon(25% 0%,70% 0%,40% 35%,95% 35%,20% 100%,40% 55%,0% 55%);
+    background-color: #FFD369;
+    width: 50%;
     height: 100%;
-    position: absolute;
+    position: absolute; /* Change to fixed to position relative to the viewport */
+    top: 0; /* Align to the top */
+    right: 0; /* Align to the right */
+    
   }
+  

@@ -1,0 +1,37 @@
+
+#roadmap {
+    padding: 20px;
+  }
+  
+  .timeline {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .event {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .date {
+    width: 100px;
+    background-color: #FFD369;
+    color: black;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .description {
+    flex: 1;
+    background-color: black;
+    padding: 10px;
+  }
+  
+  .description h3 {
+    margin: 0;
+  }
+  
+  .description p {
+    margin: 5px 0;
+  }
+  
