@@ -1,7 +1,7 @@
-.projects{
-    height: 100vh;
+.projects {
+    height: 120vh;
     align-items: center;
     flex: 1;
     background-color: #393E46;
-    color:white;
+    color: white;
 }
