@@ -1,6 +1,6 @@
 .card {
     width: 50%;
-    height: 70%;
+    height: 80%;
     padding: 25px; 
     background-color: #393E46; 
     border: 3px solid #ffecd1;
@@ -14,12 +14,12 @@
 
   .icons{
     align-self:center ;
-    padding-top: 2vh;
+    padding-top: 1vh;
     font-size: 3vh !important;
   }
 
   .header {
     margin: 0;
     align-self: center; /* Align the header to the top-left */
-    margin-bottom: 4vh;
+    margin-bottom: 2vh;
   }

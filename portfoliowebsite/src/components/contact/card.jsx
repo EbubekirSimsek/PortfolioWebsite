@@ -6,7 +6,8 @@ import LinkedInSVG from './linkedInSVG.jsx'; // Import the LinkedIn SVG componen
 const Card = () => {
     return (
         <div className="card">
-            <h1 className="header">Contact me!</h1>
+            <h1 className="header">Get in touch!</h1>
+            <p className="text1">Hey, send me an email if you want to connect! Additionaly, you can find me on LinkedIN, shoot a message if you have to!</p>
             <ContactForm />
             <div className="icons">
                 <LinkedInSVG />

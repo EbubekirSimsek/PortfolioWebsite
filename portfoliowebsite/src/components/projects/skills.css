@@ -1,0 +1,45 @@
+/* skills.css */
+
+.skills-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .skill {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .icon {
+    font-size: 30px;
+    margin-right: 10px;
+  }
+  
+  .skill h3 {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .skill p {
+    color: #666;
+    margin: 0;
+  }
+  
+  /* Style for the overall component title */
+  h2 {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+  
+  /* Add extra space between Frontend and Backend */
+  .mb-5 {
+    margin-bottom: 30px !important;
+  }
+  

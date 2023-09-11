@@ -9,9 +9,8 @@ const ContactForm = () => {
     // You can send the form data to a server or perform other actions
   };
 
-  // Style object to change the input field color
   const inputFieldStyle = {
-    color: 'white', // Change this to your desired color
+    color: 'white',
     bordercolor: 'white',
   
   };
