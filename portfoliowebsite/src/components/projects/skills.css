@@ -1,9 +1,10 @@
 /* skills.css */
 
 .skills-container {
-    max-width: 600px;
+    max-width: 100em;
     margin: 0 auto;
     text-align: center;
+    padding-top: 10vh;
   }
   
   .skill {
@@ -12,6 +13,7 @@
     justify-content: space-between;
     padding: 10px 0;
     border-bottom: 1px solid #ccc;
+    width: 400px;
   }
   
   .icon {
@@ -25,6 +27,11 @@
     margin: 0;
   }
   
+.h3 {
+  font-family: 'EerieBlack';
+}
+
+
   .skill p {
     color: #666;
     margin: 0;
@@ -36,10 +43,12 @@
     color: black;
     margin-bottom: 20px;
     padding-top: 20px;
+    font-family: 'Mova', sans-serif;
   }
   
   /* Add extra space between Frontend and Backend */
   .mb-5 {
     margin-bottom: 30px !important;
   }
+  
   

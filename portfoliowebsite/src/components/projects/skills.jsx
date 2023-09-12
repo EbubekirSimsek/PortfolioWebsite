@@ -6,12 +6,14 @@ import {
   faPython,
   faReact,
   faHtml5,
+  faJava,
+  faFigma,
+  faWordpress,
+  faSquarespace,
+  faWix,
+  faWeebly,
 } from "@fortawesome/free-brands-svg-icons";
-import {
-  faCode,
-  faDatabase,
-  faServer,
-} from "@fortawesome/free-solid-svg-icons";
+import { faCode, faDatabase } from "@fortawesome/free-solid-svg-icons";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Skills = () => {
@@ -19,13 +21,21 @@ const Skills = () => {
     { name: "JavaScript", level: "Expert", icon: faJs },
     { name: "React", level: "Intermediate", icon: faReact },
     { name: "HTML/CSS", level: "Expert", icon: faHtml5 },
+    { name: "Figma", level: "Advanced", icon: faFigma },
   ];
 
   const backendSkills = [
     { name: "Python", level: "Advanced", icon: faPython },
     { name: "Node.js", level: "Intermediate", icon: faCode },
     { name: "Database", level: "Intermediate", icon: faDatabase },
-    { name: "Server Management", level: "Intermediate", icon: faServer },
+    { name: "Java", level: "Advanced", icon: faJava },
+  ];
+
+  const webDevelopment = [
+    { name: "Wordpress", level: "Advanced", icon: faWordpress },
+    { name: "Squarespace", level: "Intermediate", icon: faSquarespace },
+    { name: "Wix", level: "Advanced", icon: faWix },
+    { name: "Weebly", level: "Intermediate", icon: faWeebly },
   ];
 
   const renderSkills = (skills) => {
@@ -40,19 +50,30 @@ const Skills = () => {
 
   return (
     <div className="skills-container">
-      <h2 className="h2">Skills</h2>
+      <h2 className="h2">My skills</h2>
       <div className="row">
-        <div className="col-md-6">
-          <h3>Frontend</h3>
+        <div
+          className="col-md-4"
+          style={{ paddingLeft: "20px", padding: "5vh" }}
+        >
+          <h3 className="h3">Frontend</h3>
           {renderSkills(frontendSkills)}
         </div>
-        <div className="col-md-6">
-          <h3>Backend</h3>
+        <div
+          className="col-md-4"
+          style={{ paddingLeft: "20px", padding: "5vh" }}
+        >
+          <h3 className="h3">Backend</h3>
           {renderSkills(backendSkills)}
         </div>
+        <div
+          className="col-md-4"
+          style={{ paddingLeft: "20px", padding: "5vh" }}
+        >
+          <h3 className="h3">Web Development Platforms</h3>
+          {renderSkills(webDevelopment)}
+        </div>
       </div>
-      {/* Add extra space between Frontend and Backend */}
-      <div className="mb-5"></div>
     </div>
   );
 };

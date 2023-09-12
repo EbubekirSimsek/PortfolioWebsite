@@ -1,7 +1,13 @@
 .projects {
-    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Change to column to stack items vertically */
     align-items: center;
-    flex: 1;
     background-color: #393E46;
     color: white;
-}
+    padding-top: 4vh;
+  }
+  
+  /* Add spacing between the timeline and skills */
+  .timeline {
+    margin-bottom: 20px !important; /* Add !important to override any conflicting styles */  }
+  

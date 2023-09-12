@@ -33,14 +33,22 @@
   }
   
   .i-name {
-    font-size: 50px;
-    font-style: oblique;
-  
+    font-size: 75px;
+    font-family: 'Mova', sans-serif;
+    color: black;
   }
   
+
+  .welcome {
+    font-size: 60px;
+    font-family: 'Poppins Black', sans-serif;
+
+  }
+
   .i-title {
-    height: 50px;
+    height: 60px;
     overflow: hidden;
+    
   }
   
   .i-title-wrapper {
@@ -75,6 +83,8 @@
   
   .i-title-description{
   font-size:x-large;
+  font-family: 'EerieBlack';
+
   }
   
   /*Css for the portrait image*/
