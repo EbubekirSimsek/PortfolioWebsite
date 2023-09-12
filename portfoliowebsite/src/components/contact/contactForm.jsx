@@ -1,6 +1,6 @@
-import React from 'react';
-import { TextField, Button, Container, Grid } from '@mui/material';
-import SendIcon from '@mui/icons-material/Send';
+import React from "react";
+import { TextField, Button, Container, Grid } from "@mui/material";
+import SendIcon from "@mui/icons-material/Send";
 
 const ContactForm = () => {
   const handleSubmit = (e) => {
@@ -9,21 +9,18 @@ const ContactForm = () => {
     // You can send the form data to a server or perform other actions
   };
 
-  // Style object to change the input field color
   const inputFieldStyle = {
-    color: 'white', // Change this to your desired color
-    bordercolor: 'white',
-  
+    color: "white",
+    bordercolor: "white",
   };
 
-  const labelStyle ={
-    color:'white'
-
+  const labelStyle = {
+    color: "white",
   };
 
-  const buttonStyle ={
-    backgroundColor: '#FFD369',
-    color: 'black', 
+  const buttonStyle = {
+    backgroundColor: "#FFD369",
+    color: "black",
   };
 
   return (
@@ -37,7 +34,7 @@ const ContactForm = () => {
               variant="outlined"
               required
               InputProps={{ style: inputFieldStyle }} // Apply the style here
-              InputLabelProps={{ style: labelStyle}}
+              InputLabelProps={{ style: labelStyle }}
             />
           </Grid>
           <Grid item xs={12}>
@@ -48,7 +45,7 @@ const ContactForm = () => {
               required
               type="email"
               InputProps={{ style: inputFieldStyle }} // Apply the style here
-              InputLabelProps={{ style: labelStyle}}
+              InputLabelProps={{ style: labelStyle }}
             />
           </Grid>
           <Grid item xs={12}>
@@ -60,7 +57,7 @@ const ContactForm = () => {
               rows={4}
               required
               InputProps={{ style: inputFieldStyle }} // Apply the style here
-              InputLabelProps={{ style: labelStyle}}
+              InputLabelProps={{ style: labelStyle }}
             />
           </Grid>
           <Grid item xs={12}>

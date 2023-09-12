@@ -43,11 +43,12 @@
 .a-title{
     font-size: 50px;
     font-style: oblique;
+    font-family: 'Mova', sans-serif;
 }
 
 .a-desc{
     font-size: 20px;
     font-weight: 200;
-    font-style:inherit;
- 
+    font-family: 'EerieBlack';
+
 }

@@ -1,12 +1,12 @@
 .card {
     width: 50%;
-    height: 70%;
+    height: 80%;
     padding: 25px; 
-    background-color: #393E46; 
+    background-color: #393E46 !important; 
     border: 3px solid #ffecd1;
     border-radius: 2vh;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    color: white;
+    color: white !important;
     display: flex; 
     flex-direction: column; /* Stack children vertically */
   }
@@ -14,12 +14,13 @@
 
   .icons{
     align-self:center ;
-    padding-top: 2vh;
+    padding-top: 1vh;
     font-size: 3vh !important;
   }
 
   .header {
     margin: 0;
     align-self: center; /* Align the header to the top-left */
-    margin-bottom: 4vh;
+    margin-bottom: 2vh;
+    font-family: 'Mova', sans-serif;
   }

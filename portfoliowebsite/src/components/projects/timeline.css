@@ -1,0 +1,72 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(53, 53, 53);
+}
+
+
+.title {
+  font-size: 5vh;
+  text-align:left;
+  font-family: 'Mova', sans-serif;
+  color: black;
+}
+
+.subsection{
+  font-size: 2vh;
+  font-family: 'Poppins Black', sans-serif;
+  color:white;
+}
+
+h3 {
+  padding-top: 0.3em;
+}
+
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 0.1em 0.1em !important; /* Adjust padding to make it smaller */
+  color: black;
+  font-family: 'Poppins Black', sans-serif;
+}
+
+.date {
+  color: rgb(201, 251, 255);
+}
+
+#description {
+  margin: 1.5em 0 2em 0;
+  color:black;
+  font-family: 'EerieBlack';
+}
+
+.button {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: white;
+}
+
+.workButton {
+  background-color: #06d6a0;
+}
+
+.workButton:hover {
+  background-color: #0ac593;
+}
+
+.schoolButton {
+  background-color: #f9c74f;
+}
+
+.schoolButton:hover {
+  background-color: #f3bc3c;
+}
+
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: rgb(44, 44, 44);
+    margin-top: 1.5em;
+  }
+}

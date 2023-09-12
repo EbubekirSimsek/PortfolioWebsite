@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import "./intro.css";
 import Me from "../../img/Portrait.png";
 
 const Intro = () => {
-
   const [fadeIn, setFadeIn] = useState(false);
 
   useEffect(() => {
@@ -17,9 +16,10 @@ const Intro = () => {
   }, []);
 
   return (
-    <div className={`i ${fadeIn ? 'fade-in' : ''}`}>
+    <div className={`i ${fadeIn ? "fade-in" : ""}`}>
       <div className="i-left">
         <div className="i-left-wrapper">
+          <h1 className="welcome"> HI, I'M </h1>
           <h1 className="i-name"> Ebubekir Simsek</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
@@ -31,18 +31,18 @@ const Intro = () => {
             </div>
           </div>
           <p className="i-title-description">
-            I am currently studying for my Bachelore's degree in Computer
-            Science while working part-time as a Pressing Machine-Operator at
-            Volvo Cars Olofström and as an IT-Consultant in CTK. Besides studies
-            and work, I'm involved in developing and maintaining different
-            websites.
+            I'm a recent Computer Science graduate actively seeking
+            opportunities in the IT industry. With a strong academic background
+            and hands-on experience in both manufacturing and IT consulting, I'm
+            eager to contribute my skills and drive to a dynamic team. Let's
+            connect and explore how I can make an impact in your organization.
           </p>
         </div>
       </div>
       <div className="r-right">
         <div className="i-bg"></div>
         <img src={Me} alt="" className="i-img" />
-        </div>
+      </div>
     </div>
   );
 };
