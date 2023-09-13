@@ -1,5 +1,6 @@
 import "./about.css";
 import cardImage from "../../img/AboutImage.png";
+import Qoute from "./quote";
 
 const About = () => {
   return (
@@ -11,18 +12,11 @@ const About = () => {
         </div>
       </div>
       <div className="a-right">
-        <div className="a-title">Overview</div>
-        <p className="a-desc">
-          When I'm not rolling up my sleeves and diving into technical
-          challenges,
-          <br />
-          you'll discover me gracefully soaring amidst the billowing clouds.
-          <br />
-          With a screen held securely in one hand and the exhilarating embrace
-          of a paragliding wing in the other, I navigate the realms of both code
-          and the skies, driven by an insatiable curiosity for innovation and
-          adventure
-        </p>
+        <p className="a-subsection"> I'd describe myself as </p>
+        <div className="a-title">Albert Einstein did</div>
+        <div className="qoute">
+          <Qoute />
+        </div>
       </div>
     </div>
   );

@@ -18,22 +18,22 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Skills = () => {
   const frontendSkills = [
-    { name: "JavaScript", level: "Expert", icon: faJs },
+    { name: "JavaScript", level: "Intermediate", icon: faJs },
     { name: "React", level: "Intermediate", icon: faReact },
-    { name: "HTML/CSS", level: "Expert", icon: faHtml5 },
+    { name: "HTML/CSS", level: "Advanced", icon: faHtml5 },
     { name: "Figma", level: "Advanced", icon: faFigma },
   ];
 
   const backendSkills = [
-    { name: "Python", level: "Advanced", icon: faPython },
+    { name: "Python", level: "Intermediate", icon: faPython },
     { name: "Node.js", level: "Intermediate", icon: faCode },
-    { name: "Database", level: "Intermediate", icon: faDatabase },
+    { name: "Database", level: "Basic", icon: faDatabase },
     { name: "Java", level: "Advanced", icon: faJava },
   ];
 
   const webDevelopment = [
     { name: "Wordpress", level: "Advanced", icon: faWordpress },
-    { name: "Squarespace", level: "Intermediate", icon: faSquarespace },
+    { name: "Squarespace", level: "Advanced", icon: faSquarespace },
     { name: "Wix", level: "Advanced", icon: faWix },
     { name: "Weebly", level: "Intermediate", icon: faWeebly },
   ];

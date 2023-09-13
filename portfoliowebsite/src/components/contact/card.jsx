@@ -1,21 +1,43 @@
 import "./card.css";
 import React from "react";
-import ContactForm from "./contactForm.jsx"; // Import the ContactForm component
-import LinkedInSVG from "./linkedInSVG.jsx"; // Import the LinkedIn SVG component
+import ContactForm from "./contactForm.jsx";
+import LinkedInSVG from "./linkedInSVG.jsx";
+import { useEffect, useRef } from "react";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { slideIn } from "../../animations/animations.js";
 
 const Card = () => {
+  const controls = useAnimation();
+  const [ref, inView] = useInView({
+    triggerOnce: true, // Only trigger the animation once
+  });
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("show"); // Start the animation when in view
+    }
+  }, [controls, inView]);
+
   return (
-    <div className="card">
-      <h1 className="header">Get in touch!</h1>
-      <p style={{}}>
-        Hey, send me an email if you want to connect! Additionaly, you can find
-        me on LinkedIN, shoot a message if you have to!
-      </p>
-      <ContactForm />
-      <div className="icons">
-        <LinkedInSVG />
+    <motion.div
+      ref={ref}
+      variants={slideIn("left", "tween", 0.2, 1)} // Use the animation function
+      initial="hidden"
+      animate={controls}
+    >
+      <div className="card">
+        <h1 className="header">Get in touch!</h1>
+        <p>
+          Hey, send me an email if you want to connect! Additionally, you can
+          find me on LinkedIn, shoot a message if you have to!
+        </p>
+        <ContactForm />
+        <div className="icons">
+          <LinkedInSVG />
+        </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
