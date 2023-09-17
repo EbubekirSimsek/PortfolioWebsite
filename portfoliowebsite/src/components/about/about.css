@@ -6,6 +6,10 @@
   color: #222831;
 }
 
+.qoute {
+  width: 80%;
+}
+
 .a-left {
   flex: 1;
   display: flex;
@@ -17,20 +21,20 @@
 
 .a-right {
   flex: 1;
-  height: 60%;
+  height: 80%;
 }
 
 .a-card.bg {
   position: absolute;
-  top: 50px;
-  left: 30px;
+  top: 5vh;
+  left: 3vh;
   background-color: #393e46;
 }
 
 .a-card {
   width: 60%;
   height: 70vh;
-  border-radius: 30px;
+  border-radius: 3vh;
   position: relative;
   overflow: hidden;
 }
@@ -42,7 +46,7 @@
 }
 
 .a-title {
-  font-size: 70px;
+  font-size: 8vh;
   font-style: oblique;
   font-family: "Mova", sans-serif;
   color: white;
@@ -61,4 +65,23 @@
   width: 600px;
   margin-top: 100px;
   text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .a-left {
+    display: none;
+  }
+
+  .a-title {
+    font-size: 5.5vh;
+  }
+  .a-right {
+    margin-top: 5vh;
+    height: 100%;
+    width: 100%;
+  }
 }

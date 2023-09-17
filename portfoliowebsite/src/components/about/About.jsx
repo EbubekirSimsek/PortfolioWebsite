@@ -13,7 +13,7 @@ const About = () => {
       </div>
       <div className="a-right">
         <p className="a-subsection"> I'd describe myself as </p>
-        <div className="a-title">Albert Einstein did</div>
+        <h className="a-title">Albert Einstein did</h>
         <div className="qoute">
           <Qoute />
         </div>

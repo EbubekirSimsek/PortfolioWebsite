@@ -22,7 +22,7 @@ const Card = () => {
   return (
     <motion.div
       ref={ref}
-      variants={slideIn("left", "tween", 0.2, 1)} // Use the animation function
+      variants={slideIn("left", "tween", 0.2, 2)} // Use the animation function
       initial="hidden"
       animate={controls}
     >

@@ -1,23 +1,18 @@
 .q-container {
-  width: 290px;
-  height: 194px;
+  width: 55vh;
+  height: 35vh;
   box-shadow: 29px -29px 58px #786331, -29px 29px 58px #ffffa1;
   transition: width 0.3s ease, height 0.3s ease;
 }
 
-.q-container:hover {
-  width: 350px; /* Increase the width on hover */
-  height: 250px; /* Increase the height on hover */
-}
-
 .terminal_toolbar {
   display: flex;
-  height: 30px;
+  height: 3vh;
   align-items: center;
-  padding: 0 8px;
+  padding: 0 0.8vh;
   box-sizing: border-box;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-top-left-radius: 0.5vh;
+  border-top-right-radius: 0.5vh;
   background: linear-gradient(#504b45 0%, #3c3b37 100%);
 }
 
@@ -31,10 +26,10 @@
   justify-content: center;
   align-items: center;
   padding: 0;
-  margin-right: 5px;
-  font-size: 8px;
-  height: 12px;
-  width: 12px;
+  margin-right: 0.5vh;
+  font-size: 0.8vh;
+  height: 1.2vh;
+  width: 1.2vh;
   box-sizing: border-box;
   border: none;
   border-radius: 100%;
@@ -64,6 +59,7 @@
   margin-left: 6px;
   font-size: 14px;
   line-height: 15px;
+  margin-top: 1.5vh;
 }
 
 .terminal_body {
@@ -126,5 +122,12 @@
 
   100% {
     background: #ffffff;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .q-container {
+    width: 90%;
+    flex-direction: column;
   }
 }
