@@ -70,6 +70,7 @@
 @media screen and (max-width: 500px) {
   .about {
     flex-direction: column;
+    height: 70vh;
   }
 
   .a-left {
@@ -80,8 +81,38 @@
     font-size: 5.5vh;
   }
   .a-right {
-    margin-top: 5vh;
+    margin-top: 4vh;
     height: 100%;
     width: 100%;
+    text-align: start !important;
+  }
+
+  .qoute {
+    margin-left: 60px !important;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .about {
+    flex-direction: column;
+    height: 70vh;
+  }
+
+  .a-left {
+    display: none;
+  }
+
+  .a-title {
+    font-size: 5.5vh;
+  }
+  .a-right {
+    margin-top: 4vh;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .qoute {
+    text-align: start !important;
   }
 }
