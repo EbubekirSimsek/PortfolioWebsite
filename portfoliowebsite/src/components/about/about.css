@@ -67,7 +67,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .about {
     flex-direction: column;
     height: 70vh;

@@ -26,7 +26,7 @@ const Skills = () => {
 
   const backendSkills = [
     { name: "Python", level: "Intermediate", icon: faPython },
-    { name: "Node.js", level: "Intermediate", icon: faCode },
+    { name: "C#", level: "Basic", icon: faCode },
     { name: "Database", level: "Basic", icon: faDatabase },
     { name: "Java", level: "Advanced", icon: faJava },
   ];

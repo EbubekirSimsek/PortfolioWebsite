@@ -125,9 +125,16 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .q-container {
     width: 90%;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .q-container {
+    width: 100%;
     flex-direction: column;
   }
 }
