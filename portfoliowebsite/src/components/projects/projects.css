@@ -1,13 +1,17 @@
 .projects {
-    display: flex;
-    flex-direction: column; /* Change to column to stack items vertically */
-    align-items: center;
-    background-color: #393E46;
-    color: white;
-    padding-top: 4vh;
-  }
-  
-  /* Add spacing between the timeline and skills */
-  .timeline {
-    margin-bottom: 20px !important; /* Add !important to override any conflicting styles */  }
-  
+  display: flex;
+  flex-direction: column; /* Change to column to stack items vertically */
+  align-items: center;
+  background-color: #393e46;
+  color: white;
+  padding-top: 4vh;
+}
+
+/* Add spacing between the timeline and skills */
+.timeline {
+  margin-bottom: 20px !important; /* Add !important to override any conflicting styles */
+}
+
+.skills {
+  width: 60%;
+}

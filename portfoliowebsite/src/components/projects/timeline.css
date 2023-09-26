@@ -8,12 +8,14 @@ body {
   text-align: left;
   font-family: "Mova", sans-serif;
   color: black;
+  margin-left: 10px;
 }
 
 .subsection {
   font-size: 2vh;
   font-family: "Poppins Black", sans-serif;
   color: white;
+  margin-left: 10px;
 }
 
 h3 {
@@ -28,8 +30,21 @@ h3 {
   font-family: "Poppins Black", sans-serif;
 }
 
+.vertical-timeline-element-title {
+  margin-left: 10px !important;
+}
+
+.vertical-timeline-element-subtitle {
+  margin-left: 10px !important;
+}
+
+#description {
+  margin-left: 10px !important;
+}
+
 .date {
-  color: rgb(201, 251, 255);
+  color: #ffd369;
+  margin-left: 10px !important;
 }
 
 #description {
@@ -43,6 +58,7 @@ h3 {
   padding: 0.1em;
   border-radius: 5px;
   color: white;
+  margin-left: 10px !important;
 }
 
 .workButton {
@@ -53,7 +69,7 @@ h3 {
   background-color: #f9c74f;
 }
 
-@media only screen and (max-width: 1700px) {
+@media only screen and (max-width: 1300px) {
   .vertical-timeline-element-date {
     display: block !important;
     float: none !important;

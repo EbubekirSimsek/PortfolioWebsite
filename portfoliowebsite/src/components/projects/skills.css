@@ -49,7 +49,7 @@ h2 {
   font-family: "Mova", sans-serif;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .col-md-4 {
     display: flex;
     flex-direction: column;
@@ -60,6 +60,10 @@ h2 {
 
   .skills-container {
     max-width: 60%;
+  }
+
+  .h2 {
+    text-align: center;
   }
 }
 

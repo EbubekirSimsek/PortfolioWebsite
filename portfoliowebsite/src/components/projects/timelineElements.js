@@ -37,7 +37,7 @@ let timelineElements = [
     location: "Chalmers Teknologkonsulter",
     description:
       "As an IT consultant with Chalmers Teknologkonsulter, I provided valuable technical expertise to clients, helping them solve complex challenges and optimize their IT systems.",
-    buttonText: "#WorkExperiencee",
+    buttonText: "#WorkExperience",
     date: "September 2022 - September 2023",
     icon: "work",
   },

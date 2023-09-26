@@ -78,8 +78,14 @@
   }
 
   .a-title {
-    font-size: 5.5vh;
+    font-size: 5vh;
+    margin-left: 10px;
   }
+
+  .a-subsection {
+    margin-left: 10px;
+  }
+
   .a-right {
     margin-top: 4vh;
     height: 100%;

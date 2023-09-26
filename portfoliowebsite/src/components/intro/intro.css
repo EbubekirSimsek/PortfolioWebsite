@@ -116,6 +116,7 @@
 @media screen and (max-width: 500px) {
   .i {
     flex-direction: column;
+    height: 60%;
   }
 
   .i-left-wrapper {
@@ -123,6 +124,7 @@
     text-align: center;
     justify-content: center;
     height: 100%;
+    margin-top: 20px;
   }
 
   .i-title-description {
