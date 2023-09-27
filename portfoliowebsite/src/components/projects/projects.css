@@ -13,5 +13,8 @@
 }
 
 .skills {
-  width: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: row; /* Arrange the skills in a row */
+  justify-content: center; /* Center the skills horizontally */
 }
