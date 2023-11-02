@@ -5,7 +5,7 @@ import { useInView } from "react-intersection-observer";
 const Quote = () => {
   const [quote, setQuote] = useState("");
   const typedQuote =
-    "I have no special talent. I am only passionately curious.";
+    "Passionate about automotive styling, I find joy in customizing cars to make them uniquely mine. Motorcycles have a special place in my heart, and I have a deep interest in their design and performance. When I'm not in the garage or on the road, I enjoy staying active through training and seeking thrilling adventures that push my limits";
 
   const [ref, inView] = useInView({
     triggerOnce: true, // Only trigger the animation once

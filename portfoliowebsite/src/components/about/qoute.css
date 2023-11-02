@@ -101,6 +101,7 @@
 
 .quote {
   color: white;
+  margin-left: 6px;
 }
 
 @keyframes curbl {

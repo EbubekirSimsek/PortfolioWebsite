@@ -1,5 +1,7 @@
 import React from "react";
 import "./skills.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faJs,
@@ -14,28 +16,30 @@ import {
   faWeebly,
 } from "@fortawesome/free-brands-svg-icons";
 import { faCode, faDatabase } from "@fortawesome/free-solid-svg-icons";
-import "bootstrap/dist/css/bootstrap.min.css";
+import Battery50Icon from "@mui/icons-material/Battery50";
+import Battery90Icon from "@mui/icons-material/Battery90";
+import Battery30Icon from "@mui/icons-material/Battery30";
 
 const Skills = () => {
   const frontendSkills = [
-    { name: "JavaScript", level: "Intermediate", icon: faJs },
-    { name: "React", level: "Intermediate", icon: faReact },
-    { name: "HTML/CSS", level: "Advanced", icon: faHtml5 },
-    { name: "Figma", level: "Advanced", icon: faFigma },
+    { name: "JavaScript", level: <Battery50Icon />, icon: faJs },
+    { name: "React", level: <Battery50Icon />, icon: faReact },
+    { name: "HTML/CSS", level: <Battery90Icon />, icon: faHtml5 },
+    { name: "Figma", level: <Battery90Icon />, icon: faFigma },
   ];
 
   const backendSkills = [
-    { name: "Python", level: "Intermediate", icon: faPython },
-    { name: "C#", level: "Basic", icon: faCode },
-    { name: "Database", level: "Basic", icon: faDatabase },
-    { name: "Java", level: "Advanced", icon: faJava },
+    { name: "Python", level: <Battery50Icon />, icon: faPython },
+    { name: "C#", level: <Battery30Icon />, icon: faCode },
+    { name: "Database", level: <Battery30Icon />, icon: faDatabase },
+    { name: "Java", level: <Battery90Icon />, icon: faJava },
   ];
 
   const webDevelopment = [
-    { name: "Wordpress", level: "Advanced", icon: faWordpress },
-    { name: "Squarespace", level: "Advanced", icon: faSquarespace },
-    { name: "Wix", level: "Advanced", icon: faWix },
-    { name: "Weebly", level: "Intermediate", icon: faWeebly },
+    { name: "Wordpress", level: <Battery90Icon />, icon: faWordpress },
+    { name: "Squarespace", level: <Battery90Icon />, icon: faSquarespace },
+    { name: "Wix", level: <Battery90Icon />, icon: faWix },
+    { name: "Weebly", level: <Battery50Icon />, icon: faWeebly },
   ];
 
   const renderSkills = (skills) => {
@@ -43,7 +47,7 @@ const Skills = () => {
       <div key={index} className="skill">
         <FontAwesomeIcon icon={skill.icon} className="icon" />
         <h3>{skill.name}</h3>
-        <p>{skill.level}</p>
+        {skill.level}
       </div>
     ));
   };
@@ -54,7 +58,7 @@ const Skills = () => {
       <div className="row">
         <div
           className="col-md-4"
-          style={{ paddingLeft: "20px", padding: "5vh" }}
+          style={{ paddingLeft: "20px", padding: "5vh", textAlign: "center" }}
         >
           <h3 className="h3">Frontend</h3>
           {renderSkills(frontendSkills)}
