@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortfolioWebsite/static/css/main.d27a4791.css",
-    "main.js": "/PortfolioWebsite/static/js/main.f912a5d4.js",
+    "main.css": "/PortfolioWebsite/static/css/main.27c7d7c3.css",
+    "main.js": "/PortfolioWebsite/static/js/main.82bd7b4d.js",
     "static/js/787.27ca2965.chunk.js": "/PortfolioWebsite/static/js/787.27ca2965.chunk.js",
     "static/media/Portrait.png": "/PortfolioWebsite/static/media/Portrait.602d15c2e0626f35ff48.png",
     "static/media/AboutImage.png": "/PortfolioWebsite/static/media/AboutImage.906e2cb1f3806b21233e.png",
@@ -12,12 +12,12 @@
     "static/media/Dinlimm2.jpg": "/PortfolioWebsite/static/media/Dinlimm2.9a4b866a2295f643cf97.jpg",
     "static/media/PortfolioLogo.png": "/PortfolioWebsite/static/media/PortfolioLogo.02b49142ea102a84dac3.png",
     "index.html": "/PortfolioWebsite/index.html",
-    "main.d27a4791.css.map": "/PortfolioWebsite/static/css/main.d27a4791.css.map",
-    "main.f912a5d4.js.map": "/PortfolioWebsite/static/js/main.f912a5d4.js.map",
+    "main.27c7d7c3.css.map": "/PortfolioWebsite/static/css/main.27c7d7c3.css.map",
+    "main.82bd7b4d.js.map": "/PortfolioWebsite/static/js/main.82bd7b4d.js.map",
     "787.27ca2965.chunk.js.map": "/PortfolioWebsite/static/js/787.27ca2965.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d27a4791.css",
-    "static/js/main.f912a5d4.js"
+    "static/css/main.27c7d7c3.css",
+    "static/js/main.82bd7b4d.js"
   ]
 }
