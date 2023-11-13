@@ -37,7 +37,7 @@
 }
 
 .col-md-4 {
-  width: 500px !important;
+  width: 550px !important;
 }
 
 /* Style for the overall component title */
@@ -49,7 +49,36 @@ h2 {
   font-family: "Mova", sans-serif;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1670px) {
+  .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    width: 500px !important;
+  }
+  .skills-container {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 450px !important;
+  }
+
+  .skills-container {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1350px) {
   .col-md-4 {
     display: flex;
     flex-direction: column;
@@ -65,8 +94,11 @@ h2 {
   .h2 {
     text-align: center;
   }
+  .col-md-4 {
+    width: 100% !important; /* Adjust this value to your preference */
+    margin: 0 10px; /* Space between columns */
+  }
 }
-
 @media screen and (max-width: 410px) {
   .skill {
     width: 290px;

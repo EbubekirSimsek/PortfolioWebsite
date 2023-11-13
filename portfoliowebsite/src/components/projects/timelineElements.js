@@ -12,6 +12,17 @@ let timelineElements = [
 
   {
     id: 2,
+    title: "Natural Science Program",
+    location: "Hvitfeldtska gymnasiet",
+    description:
+      "I gained a wide knowledge in the Natural Science Program at Hvitfeldtska gymnasiet, which helped me build a strong foundation in young age.",
+    buttonText: "#SchoolExperience",
+    date: "June 2017 - August 2020",
+    icon: "school",
+  },
+
+  {
+    id: 3,
     title: "Pressing Machine Operator",
     location: "Volvo Cars Olofström",
     description:
@@ -22,7 +33,7 @@ let timelineElements = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "Computer Science",
     location: "University of Gothenburg",
     description:
@@ -32,7 +43,7 @@ let timelineElements = [
     icon: "school",
   },
   {
-    id: 4,
+    id: 5,
     title: "IT-Consultant",
     location: "Chalmers Teknologkonsulter",
     description:
@@ -42,11 +53,11 @@ let timelineElements = [
     icon: "work",
   },
   {
-    id: 5,
+    id: 6,
     title: "Teamleader",
     location: "Chalmers Teknologkonsulter",
     description:
-      "In my role as a team leader at Chalmers Teknologkonsulter, I led and motivated a group of talented professionals, ensuring the successful execution of IT projects and fostering a collaborative work environment..",
+      "In my role as a team leader at Chalmers Teknologkonsulter, I led and motivated a group of talented professionals, ensuring the successful execution of IT projects and fostering a collaborative work environment.",
     buttonText: "#WorkExperience",
     date: "November 2022 - September 2023",
     icon: "work",

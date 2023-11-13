@@ -74,7 +74,7 @@ const Skills = () => {
           className="col-md-4"
           style={{ paddingLeft: "20px", padding: "5vh" }}
         >
-          <h3 className="h3">Web Development Platforms</h3>
+          <h3 className="h3">Web Development</h3>
           {renderSkills(webDevelopment)}
         </div>
       </div>
