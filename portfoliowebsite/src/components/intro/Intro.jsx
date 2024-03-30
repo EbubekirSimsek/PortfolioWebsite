@@ -31,11 +31,12 @@ const Intro = () => {
             </div>
           </div>
           <p className="i-title-description">
-            I'm a recent Computer Science graduate actively seeking
-            opportunities in the IT industry. With a strong academic background
-            and hands-on experience in both manufacturing and IT consulting, I'm
-            eager to contribute my skills and drive to a dynamic team. Let's
-            connect and explore how I can make an impact in your organization.
+            I'm currently part of the Strategy and Innovation department at
+            Volvo Cars, contributing as an IT consultant on an exhilarating
+            project, specializing in software development Automation & Testing.
+            Combining my academic foundation with practical expertise, I'm
+            poised to drive innovation and make meaningful contributions. Let's
+            connect and explore opportunities to collaborate.
           </p>
         </div>
       </div>

@@ -62,6 +62,16 @@ let timelineElements = [
     date: "November 2022 - September 2023",
     icon: "work",
   },
+  {
+    id: 6,
+    title: "Software Developer",
+    location: "Volvo Cars",
+    description:
+      "As an IT consultant at DevPort, I'm immersed in software development automation and testing at Volvo Cars, where I leverage my expertise to drive efficiency and excellence.",
+    buttonText: "#WorkExperience",
+    date: "February 2024 - Present",
+    icon: "work",
+  },
 ];
 
 export default timelineElements;
