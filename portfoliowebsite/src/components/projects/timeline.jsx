@@ -42,13 +42,13 @@ const Timeline = () => {
               </h5>
               <p id="description">{element.description}</p>
               {showButton && (
-                <a
+                <button
                   className={`button ${
                     isWorkIcon ? "workButton" : "schoolButton"
                   }`}
                 >
                   {element.buttonText}
-                </a>
+                </button>
               )}
             </VerticalTimelineElement>
           );

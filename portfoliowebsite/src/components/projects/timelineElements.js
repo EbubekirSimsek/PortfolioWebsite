@@ -69,7 +69,7 @@ let timelineElements = [
     description:
       "As an IT consultant at DevPort, I'm immersed in software development automation and testing at Volvo Cars, where I leverage my expertise to drive efficiency and excellence.",
     buttonText: "#WorkExperience",
-    date: "February 2024 - Present",
+    date: "February 2024 - April  2025",
     icon: "work",
   },
 ];

@@ -2,7 +2,7 @@ import "./card.css";
 import React from "react";
 import ContactForm from "./contactForm.jsx";
 import LinkedInSVG from "./linkedInSVG.jsx";
-import { useEffect, useRef } from "react";
+import { useEffect} from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { slideIn } from "../../animations/animations.js";

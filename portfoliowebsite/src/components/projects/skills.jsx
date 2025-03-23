@@ -19,6 +19,7 @@ import { faCode, faDatabase } from "@fortawesome/free-solid-svg-icons";
 import Battery50Icon from "@mui/icons-material/Battery50";
 import Battery90Icon from "@mui/icons-material/Battery90";
 import Battery30Icon from "@mui/icons-material/Battery30";
+import Battery80Icon from "@mui/icons-material/Battery80";
 
 const Skills = () => {
   const frontendSkills = [
@@ -30,9 +31,9 @@ const Skills = () => {
 
   const backendSkills = [
     { name: "Python", level: <Battery50Icon />, icon: faPython },
-    { name: "C#", level: <Battery30Icon />, icon: faCode },
+    { name: "C#", level: <Battery80Icon />, icon: faCode },
     { name: "Database", level: <Battery30Icon />, icon: faDatabase },
-    { name: "Java", level: <Battery90Icon />, icon: faJava },
+    { name: "Java", level: <Battery50Icon />, icon: faJava },
   ];
 
   const webDevelopment = [
