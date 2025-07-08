@@ -72,6 +72,16 @@ let timelineElements = [
     date: "February 2024 - April  2025",
     icon: "work",
   },
+  {
+    id: 7,
+    title: "Project Consultant",
+    location: "Devies",
+    description:
+      "As a project consultant, I was responsible for deliver- ing two key solutions: a custom Chrome extension integrated with LinkedIn and the internal CRM Huly.io to streamline candidate man- agement workflows, and the company’s official website and webshop built in WordPress to strengthen online presence and sales. Both projects improved operational efficiency and user experience while en- suring secure, scalable systems aligned with business goals.",
+    buttonText: "#WorkExperience",
+    date: "February 2024 - April  2025",
+    icon: "work",
+  },
 ];
 
 export default timelineElements;
